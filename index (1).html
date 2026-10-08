@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Neon City Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src="js/gallery.js"></script>
+</head>
+<body onload="addTabFocus()">
+
+	<main>
+		<h1>Neon City Photo Gallery</h1>
+
+		<div id="image" aria-live="polite">
+			Hover over an image below to display here.
+		</div>
+
+		<div class="thumbs">
+			<img class="preview" src="images/city1.jpg" alt="Rainy neon-lit city street at night with glowing shop signs"
+				onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+			<img class="preview" src="images/city2.jpg" alt="Snowy cyberpunk street with giant glowing billboard faces"
+				onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+			<img class="preview" src="images/city3.jpg" alt="Neon-covered walls beside a road with streaks of orange and pink light"
+				onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+			<img class="preview" src="images/city4.jpg" alt="Silhouette of a traveler on a wet street reflecting glowing code"
+				onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+			<img class="preview" src="images/city5.jpg" alt="Misty purple city of dark towers with neon light strips in the rain"
+				onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+			<img class="preview" src="images/city6.jpg" alt="Narrow alley with a ramen shop and a flying car above a lone walker"
+				onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+		</div>
+	</main>
+
+</body>
+</html>
